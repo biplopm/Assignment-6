@@ -6,6 +6,7 @@ const result = members.filter(
     data.name === search ||
     data.age >= search ||
     data.phoneNumber === search ||
+    data.lastDonate === search ||
     data.donationHistory === search
 );
 

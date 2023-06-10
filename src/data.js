@@ -5,7 +5,11 @@ const members = [
     age: "25",
     bloodGroup: "A+",
     phoneNumber: "1234567890",
-    donationHistory: ["2022-05-01", "2023-01-15"],
+    lastDonate: "78 Days",
+    donationHistory: {
+      name: "Milers",
+      donateDate: "22-05-2022",
+    },
   },
   {
     id: "2",
@@ -13,7 +17,11 @@ const members = [
     age: "28",
     bloodGroup: "O-",
     phoneNumber: "9876543210",
-    donationHistory: ["2022-08-10", "2023-08-25"],
+    lastDonate: "15 Days",
+    donationHistory: {
+      name: "Bond",
+      donateDate: "10-06-2023",
+    },
   },
   {
     id: "3",
@@ -21,7 +29,11 @@ const members = [
     age: "32",
     bloodGroup: "B+",
     phoneNumber: "5678901234",
-    donationHistory: ["2022-07-10", "2023-08-12"],
+    lastDonate: "44 Days",
+    donationHistory: {
+      name: "Polaris",
+      donateDate: "08-09-2022",
+    },
   },
   {
     id: "4",
@@ -29,7 +41,11 @@ const members = [
     age: "45",
     bloodGroup: "O+",
     phoneNumber: "4562201234",
-    donationHistory: ["2022-07-14", "2023-05-19"],
+    lastDonate: "120 Days",
+    donationHistory: {
+      name: "Noria",
+      donateDate: "17-01-2023",
+    },
   },
   {
     id: "5",
@@ -37,7 +53,11 @@ const members = [
     age: "55",
     bloodGroup: "B+",
     phoneNumber: "01478651",
-    donationHistory: ["2022-05-19", "2023-01-06"],
+    lastDonate: "72 Days",
+    donationHistory: {
+      name: "Bond",
+      donateDate: "17-05-2022",
+    },
   },
   {
     id: "6",
@@ -45,7 +65,11 @@ const members = [
     age: "24",
     bloodGroup: "A-",
     phoneNumber: "25896321478",
-    donationHistory: ["2022-08-15", "2023-04-27"],
+    lastDonate: "105 Days",
+    donationHistory: {
+      name: "Kylient",
+      donateDate: "17-03-2022",
+    },
   },
   {
     id: "7",
@@ -53,7 +77,11 @@ const members = [
     age: "22",
     bloodGroup: "B-",
     phoneNumber: "1478963214",
-    donationHistory: ["2022-04-10", "2023-08-25"],
+    lastDonate: "50 Days",
+    donationHistory: {
+      name: "Putted",
+      donateDate: "17-02-2023",
+    },
   },
   {
     id: "8",
@@ -61,7 +89,11 @@ const members = [
     age: "32",
     bloodGroup: "B+",
     phoneNumber: "5678901234",
-    donationHistory: ["2022-06-29", "2023-01-25"],
+    lastDonate: "55 Days",
+    donationHistory: {
+      name: "Jonson",
+      donateDate: "17-03-2023",
+    },
   },
   {
     id: "9",
@@ -69,7 +101,11 @@ const members = [
     age: "29",
     bloodGroup: "AB+",
     phoneNumber: "5678901234",
-    donationHistory: ["2022-07-11", "2023-04-20"],
+    lastDonate: "120 Days",
+    donationHistory: {
+      name: "Olivia",
+      donateDate: "17-08-2022",
+    },
   },
   {
     id: "10",
@@ -77,6 +113,130 @@ const members = [
     age: "21",
     bloodGroup: "A+",
     phoneNumber: "1247896232144",
-    donationHistory: ["2022-02-05", "2023-04-05"],
+    lastDonate: "120 Days",
+    donationHistory: {
+      name: "Seleucia",
+      donateDate: "17-06-2023",
+    },
+  },
+  {
+    id: "11",
+    name: "John",
+    age: "25",
+    bloodGroup: "A+",
+    phoneNumber: "1234567890",
+    lastDonate: "78 Days",
+    donationHistory: {
+      name: "Milers",
+      donateDate: "22-05-2022",
+    },
+  },
+  {
+    id: "12",
+    name: "Sarah",
+    age: "28",
+    bloodGroup: "O-",
+    phoneNumber: "9876543210",
+    lastDonate: "15 Days",
+    donationHistory: {
+      name: "Bond",
+      donateDate: "10-06-2023",
+    },
+  },
+  {
+    id: "13",
+    name: "Michael",
+    age: "32",
+    bloodGroup: "B+",
+    phoneNumber: "5678901234",
+    lastDonate: "44 Days",
+    donationHistory: {
+      name: "Polaris",
+      donateDate: "08-09-2022",
+    },
+  },
+  {
+    id: "14",
+    name: "Michael",
+    age: "45",
+    bloodGroup: "O+",
+    phoneNumber: "4562201234",
+    lastDonate: "120 Days",
+    donationHistory: {
+      name: "Noria",
+      donateDate: "17-01-2023",
+    },
+  },
+  {
+    id: "15",
+    name: "Michael",
+    age: "55",
+    bloodGroup: "B+",
+    phoneNumber: "01478651",
+    lastDonate: "72 Days",
+    donationHistory: {
+      name: "Bond",
+      donateDate: "17-05-2022",
+    },
+  },
+  {
+    id: "16",
+    name: "John",
+    age: "24",
+    bloodGroup: "A-",
+    phoneNumber: "25896321478",
+    lastDonate: "105 Days",
+    donationHistory: {
+      name: "Kylient",
+      donateDate: "17-03-2022",
+    },
+  },
+  {
+    id: "17",
+    name: "Michael",
+    age: "22",
+    bloodGroup: "B-",
+    phoneNumber: "1478963214",
+    lastDonate: "50 Days",
+    donationHistory: {
+      name: "Putted",
+      donateDate: "17-02-2023",
+    },
+  },
+  {
+    id: "18",
+    name: "Michael",
+    age: "32",
+    bloodGroup: "B+",
+    phoneNumber: "5678901234",
+    lastDonate: "55 Days",
+    donationHistory: {
+      name: "Jonson",
+      donateDate: "17-03-2023",
+    },
+  },
+  {
+    id: "19",
+    name: "Patrick",
+    age: "29",
+    bloodGroup: "AB+",
+    phoneNumber: "5678901234",
+    lastDonate: "120 Days",
+    donationHistory: {
+      name: "Olivia",
+      donateDate: "17-08-2022",
+    },
+  },
+  {
+    id: "20",
+    name: "Sarah",
+    age: "21",
+    bloodGroup: "A+",
+    phoneNumber: "1247896232144",
+    lastDonate: "120 Days",
+    donationHistory: {
+      name: "Seleucia",
+      donateDate: "17-06-2023",
+    },
   },
 ];
